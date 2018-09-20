@@ -1,17 +1,13 @@
 from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
-from random import choice
-import random
 import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
 import asyncio
 bot=ChatBot('Test')
-random_bye=["You are a good, person, bye!","Really man, i want to talk with you","If you say it, i have to do it!","I'm a bot, and i approuve this message!","Ok","But... But... I am so sad...","Bye you are my best friend"]
 Client=discord.Client()
 client=commands.Bot(command_prefix="!")
 bot=ChatBot('Test')
-random_bye=["You are a good, person, bye!","Really man, i want to talk with you","If you say it, i have to do it!","I'm a bot, and i approuve this message!","Ok","But... But... I am so sad...","Bye you are my best friend"]
 bot.set_trainer(ListTrainer)
 for _file in os.listdir('files'):
     chats=open('files/'+_file,'r').readlines()
