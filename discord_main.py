@@ -2,16 +2,10 @@ from chatterbot.trainers import ListTrainer
 from chatterbot import ChatBot
 from random import choice
 import random
-from time import sleep
-import os
-import sys
 import discord
 from discord.ext.commands import Bot
 from discord.ext import commands
-import time
-from time import ctime
 import asyncio
-translator = Translator()
 bot=ChatBot('Test')
 random_bye=["You are a good, person, bye!","Really man, i want to talk with you","If you say it, i have to do it!","I'm a bot, and i approuve this message!","Ok","But... But... I am so sad...","Bye you are my best friend"]
 Client=discord.Client()
