@@ -1,4 +1,2 @@
 discord.py
-chatterbot
-googletrans
-langdetect
+$ pip install https://files.pythonhosted.org/packages/60/8e/cdcc5c8c97dc4d591dc96b6f452f31393fc1393bd1f37d2819bcce9d0d57/ChatterBot-0.8.7-py2.py3-none-any.whl
